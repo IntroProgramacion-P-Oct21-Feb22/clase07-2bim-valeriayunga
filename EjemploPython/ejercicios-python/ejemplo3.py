@@ -23,8 +23,10 @@ print("Ingreso de datos de empleado\n")
 nombre = input("Ingreso su nombre :\n")
 nota1 = input("Ingreso de nota 1 :\n")
 nota2 = input("Ingreso de nota 2 :\n")
-promedio = int(nota1) / nota2
+nota1=int(nota1)
+nota2=int(nota2)
+promedio =  nota1 / nota2
 print("Los datos ingresados son: \nNombre: %s\nNota1: %d \nNota2: %d\
-        \nPromedio: %f" % (nombre, nota1, nota2, promedio))
+        \nPromedio: %.2f" % (nombre, nota1, nota2, promedio))
 
 

@@ -31,10 +31,13 @@ except TypeError as ex:
     print("Algo paso en el programa (TypeError)\n")
     print(ex)
     print(type(ex))
+except ZeroDivisionError as ex:
+    print("Algo paso en el programa (ZeroDivisionError)\n")
+    print(ex)
+    print(type(ex))
 except Exception as ex:
     print("Algo paso en el programa (Exeption)\n")
     print(ex)
     print(type(ex))
-    
-
+print("fin del proceso")
 

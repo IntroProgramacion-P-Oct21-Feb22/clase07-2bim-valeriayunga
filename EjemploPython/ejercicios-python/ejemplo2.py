@@ -16,6 +16,7 @@ NameError: name 'apellido' is not defined
 print("Ingreso de datos de empleado\n")
 
 nombre = input("Ingreso su nombre :\n")
+apellido= input("Ingreso su nombre :\n")
 
 print("Los datos ingresados son %s %s" % (nombre, apellido))
 
